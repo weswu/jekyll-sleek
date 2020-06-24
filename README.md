@@ -21,33 +21,24 @@ A modern [Jekyll](https://jekyllrb.com/) theme focused on speed performance & SE
 
 ## Installation
 
-### System Requirements
 
-To use this project, you'll need the following things on your local machine:
 
 #### Jekyll
 
 ```shell
+ruby+devkit2.7
+gem source -d https://gems.ruby-china.com
+gem install bundler
 gem install jekyll
 ```
 
-#### NodeJS (8 or greater)
-
-Download and open the [NodeJS installer](https://nodejs.org/en/)
-
-#### Gulp CLI (optional, but recommended)
-
-```shell
-npm install --global gulp-cli
-```
 
 ### Up & Running
 
-1. [Fork the repo](https://github.com/janczizikow/sleek/fork)
-2. Clone or download the repo into directory of your choice: `git clone https://github.com/your-github-username/sleek.git`
-3. Inside the directory run `bundle install` and `npm install`
-4. If you want to use [gulp.js](https://gulpjs.com/) run `gulp` or `npm start`
-    * if you don't want to use gulp you can run `bundle exec jekyll serve` instead
+1. Clone or download the repo into directory of your choice: `git clone https://github.com/your-github-username/sleek.git`
+2. Inside the directory run `bundle install` and `npm install`
+3. Inside the directory run `bundle exec jekyll serve`
+4. `jekyll serve`  `jekyll build`
 
 #### Installing to existing jekyll project
 
