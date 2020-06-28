@@ -1,7 +1,5 @@
 # Sleek
 
-[![Gem Version](https://badge.fury.io/rb/jekyll-sleek.svg)](https://badge.fury.io/rb/jekyll-sleek) [![Build Status](https://travis-ci.org/janczizikow/sleek.svg?branch=master)](https://travis-ci.org/janczizikow/sleek) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/janczizikow/sleek)
-
 A modern [Jekyll](https://jekyllrb.com/) theme focused on speed performance & SEO best practices.
 
 > ⚠️ This theme is no longer actively maintained.
@@ -21,24 +19,21 @@ A modern [Jekyll](https://jekyllrb.com/) theme focused on speed performance & SE
 
 ## Installation
 
-
-
-#### Jekyll
+#### 安装Jekyll
 
 ```shell
 ruby+devkit2.7
 gem source -d https://gems.ruby-china.com
 gem install bundler
 gem install jekyll
+npm install --global gulp-cli
 ```
 
+### 启动
 
-### Up & Running
-
-1. Clone or download the repo into directory of your choice: `git clone https://github.com/your-github-username/sleek.git`
-2. Inside the directory run `bundle install` and `npm install`
-3. Inside the directory run `bundle exec jekyll serve`
-4. `jekyll serve`  `jekyll build`
+1. 插件安装 run `bundle install` and `npm install`
+3. 本地服务器 run `bundle exec jekyll serve --watch`
+4. 生成静态文件 run `bundle exec jekyll build`
 
 #### Installing to existing jekyll project
 
@@ -66,25 +61,27 @@ Or install it yourself as:
 
 ```bash
 sleek
-├── _includes	               # theme includes
+├── _includes	             # theme includes
 ├── _js	                       # javascript files (by default jquery will be included with the scripts inside)
-├── _layouts                   # theme layouts (see below for details)
-├── _pages                     # pages folder (empty by default)
-├── _posts                     # blog posts
-├── _sass                      # Sass partials
-├── assets
-|  ├── css	               # minified css files
+├── _layouts                   # 网页排版模板
+├── _pages                     # 其他需要生成的网页 (empty by default)
+├── _posts                     # 博客内容
+├── _sass                      # sass
+├── assets                 # 辅助资源 css布局 js脚本 图片等
+|  ├── css	                   # minified css files
 |  ├── img                     # images and icons used for the template
-|  └── js		               # bundled and minified files from _js folder
-├── _config.yml                # sample configuration
+|  └── js		                   # bundled and minified files from _js folder
+├── _config.yml            # 网站配置信息
 ├── gulpfile.js                # gulp tasks (tasks autorunner)
 ├── index.md                   # sample home page (blog page)
 └── package.json               # gulp tasks
 ```
 
-## Usage
 
-You can modify the theme by changing the settings in `_config.yml`.
+#### 技术支持
+1. [Sleek](https://github.com/janczizikow/sleek)
+2. [人才网](https://www.zjrcfw.com/)
+
 
 ### Posts
 

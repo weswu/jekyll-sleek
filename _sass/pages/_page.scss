@@ -96,8 +96,4 @@
   display: flex;
   flex-wrap: wrap;
   flex: 1 0 auto;
-
-  @include breakpoint($md) {
-    padding-top: 5em;
-  }
 }

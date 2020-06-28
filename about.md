@@ -1,13 +1,12 @@
 ---
 layout: page
-title: About
+title: 店口简介
 permalink: /about/
 ---
 
-Sleek is a modern Jekyll theme focused on speed performance & SEO best practices. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/) or simply read the guide on how to [get started](/getting-started)
 
-You can find the source code for the Jekyll new theme at:
-[sleek](https://github.com/janczizikow/sleek)
+店口镇是浙江绍兴诸暨市下辖的一个镇，位于诸暨市北部，东连绍兴，北接萧山，坐拥白塔湖国家湿地和杭坞山两大山水资源。镇中心位于东经120°19'45"，北纬29°55'50"。区域面积175.2平方千米，户籍人口10.23万人，辖34个行政村、9个社区。
 
-You can find the source code for Jekyll at
-[jekyll](https://github.com/jekyll/jekyll)
+2014年，店口全镇实现国内生产总值124.7亿元，比2013年增长8%；工业总产值812亿元，比2013年增长9.8%；财政总收入19.7亿元，比2013年增长8.8%；农民人均纯收入41879元。
+
+2018年10月，入选“2018年度全国综合实力千强镇前100名”。   2019年10月，被评为2019年度全国综合实力千强镇。

@@ -1,16 +1,16 @@
 # SITE CONFIGURATION
-title: Sleek # your site title
-author: GitHub User # You :P
+title: '绍兴店口' # 主题
+author: wes # 作者信息
 description: > # Meta description of Homepage
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "/sleek" # the subpath of your site, e.g. /blog
-url: "https://janczizikow.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: " http://example.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # SEO PLUGIN
 social:
-  name: Your Name
+  name: Wes
   links:
     - https://twitter.com/BenBalter
     - https://www.facebook.com/ben.balter
@@ -21,23 +21,23 @@ social:
 
 # THEME SETTINGS
 navigation: # Navigation links
-  - {name: 'Home', link: '/'}
-  - {name: 'About', link: '/about'}
-  - {name: 'Contact', link: '/contact'}
+  - {name: '首页', link: '/'}
+  - {name: '新闻动态', link: '/news'}
+  - {name: '走进店口', link: '/about'}
+  - {name: '互动交流', link: '/contact'}
 
 tagline: >
-  Modern Jekyll theme focused on speed performance &amp; SEO best practices
+  白塔湖是诸暨市境内最大的湖畈，面积为38平方千米。湖内河道交叉，水网密布，晴好天气漾舟湖上，只见两岸碧野无际，风吹浪起，湖面烟波浩渺，舟楫点点。
 
 hero_img: posts/sleek_lg.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 
-email: your-email@domain.com # email for form submission
+email: 836790625@qq.com # email for form submission
 
-twitter_username: jan_czizikow # replace with your_twitter_username or comment to remove link from footer
-github_username:  janczizikow # replace with your_github_username or comment to remove link from footer
-instagram_username: shanlongjj # replace with your_instagram_username or comment to remove link from footer
+github_username:  weswu # replace with your_github_username or comment to remove link from footer
+instagram_username: weswu # replace with your_instagram_username or comment to remove link from footer
 
 disqus:
-  shortname: janczizikow # to enable comments replace with your_disqus_shortname
+  shortname: wes # to enable comments replace with your_disqus_shortname
 
 # google_tag_manager: GTM-XXXXXXX # Uncomment to enable GTM. Replace GTM-XXXXXXX with your GTM container ID
 
@@ -47,6 +47,7 @@ service_worker: true
 markdown: kramdown
 highlighter: rouge # or pygments or null
 # theme: jekyll-sleek # Uncomment if you're using the theme as a ruby gem
+# exclude: ['README.md', 'node_modules', 'script', 'package.json', 'package-lock.json', 'Gemfile', 'Gemfile.lock', 'vendor', 'npm-debug.log', 'gulpfile.js', 'sleek.jpg']
 exclude:
   - README.md
   - node_modules
@@ -69,3 +70,6 @@ compress_html:
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+
+exclude_from_watch:
+- css
