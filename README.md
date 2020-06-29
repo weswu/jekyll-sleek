@@ -37,16 +37,17 @@ https://apizza.net/
 #### 安装Jekyll
 
 ```shell
-ruby+devkit2.7
-gem source -d https://gems.ruby-china.com
+[Ruby+Devkit 2.7.1-1](https://rubyinstaller.org/downloads/)
+gem source -r https://rubygems.org/
+gem source -a https://gems.ruby-china.com
 gem install bundler
 gem install jekyll
-npm install --global gulp-cli
+cnpm install --global gulp-cli
 ```
 
 ### 启动
 
-1. 插件安装 run `bundle install` and `npm install`
+1. 插件安装 run `bundle install` and `cnpm install`
 3. 本地服务器 run `bundle exec jekyll serve --watch`
 4. 生成静态文件 run `bundle exec jekyll build`
 
