@@ -46,6 +46,12 @@
     "type": "git",
     "url": "git+https://github.com/janczizikow/sleek.git"
   },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  },
   "keywords": [],
   "author": "Jan Czizikow",
   "license": "MIT",

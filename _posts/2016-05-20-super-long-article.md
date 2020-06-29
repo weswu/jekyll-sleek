@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "店口镇开展人大代表轮训工作"
-featured-img: 'http://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2745/site/picture/-1/510978b04b7340a38c6a906ce7b239f6.png'
+featured-img: sleek
 categories: [Sample, Guides]
 ---
 

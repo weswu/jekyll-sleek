@@ -20,13 +20,13 @@
 <script async src="/assets/js/bundle.js"></script>
 {% if site.service_worker %}
 <script async>
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('./sw.js').then(function( registration ) {
-      console.log('ServiceWorker registration successful with scope: ', registration.scope);
-    })
-    .catch(function(error) {
-      console.log('ServiceWorker registration failed: ', error);
-    });
-  }
+  // if ('serviceWorker' in navigator) {
+  //   navigator.serviceWorker.register('./sw.js').then(function( registration ) {
+  //     console.log('ServiceWorker registration successful with scope: ', registration.scope);
+  //   })
+  //   .catch(function(error) {
+  //     console.log('ServiceWorker registration failed: ', error);
+  //   });
+  // }
 </script>
 {% endif %}

@@ -54,6 +54,14 @@
   }
 }
 
+.header__name{
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  width: 100px;
+}
+
 .header__inner {
   display: flex;
   align-items: center;
