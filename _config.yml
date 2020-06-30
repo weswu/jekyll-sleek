@@ -44,8 +44,7 @@ service_worker: true
 # BUILD SETTINGS
 markdown: kramdown
 highlighter: rouge # or pygments or null
-# theme: jekyll-sleek # Uncomment if you're using the theme as a ruby gem
-# exclude: ['README.md', 'node_modules', 'script', 'package.json', 'package-lock.json', 'Gemfile', 'Gemfile.lock', 'vendor', 'npm-debug.log', 'gulpfile.js', 'sleek.jpg']
+#theme: jekyll-sleek # Uncomment if you're using the theme as a ruby gem
 exclude:
   - README.md
   - node_modules
@@ -68,6 +67,3 @@ compress_html:
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
-
-exclude_from_watch:
-- css

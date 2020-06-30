@@ -22,14 +22,16 @@ site
 chrome://serviceworker-internals/  删除 service worker
 
 
-#### 压缩sass
-`gulp sass`   `npm install babel-register`  `npm rebuild node-sass`   `npm rebuild`
+
+0. 目录优化
+1. test数据完善页面（首页，新闻） 首页和新闻动态从一下接口 ，查询条件partyId，status=2
+
 
 https://apizza.net/
-2、首页和新闻动态从一下接口 ，查询条件partyId，status=2
-3、走进店口页面显示，电话地址，给个地图定位
-4、互动交流，部署几个输入框，输入电话，访问时间，访问单位，提交。
 
+2. 走进店口页面显示，电话地址，给个地图定位
+3. 互动交流，部署几个输入框，输入电话，访问时间，访问单位，提交。
+4. 学习语法（jeykll,gulp）
 
 
 ## Installation
@@ -42,14 +44,23 @@ gem source -r https://rubygems.org/
 gem source -a https://gems.ruby-china.com
 gem install bundler
 gem install jekyll
-cnpm install --global gulp-cli
+cnpm install --global gulp-cli  安装gulp插件
 ```
 
 ### 启动
 
 1. 插件安装 run `bundle install` and `cnpm install`
-3. 本地服务器 run `bundle exec jekyll serve --watch`
-4. 生成静态文件 run `bundle exec jekyll build`
+
+2. 本地服务器 run
+  `npm start` or `bundle exec jekyll serve --watch`
+
+3. 生成静态文件 run `bundle exec jekyll build`
+
+
+4. npm start
+`npm rebuild node-sass`  `npm install babel-register`  
+
+gulp 用不了bug
 
 #### Installing to existing jekyll project
 

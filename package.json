@@ -12,7 +12,7 @@
     "velocity-animate": "^1.5.0"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
+    "babel-core": "^6.26.3",
     "babel-preset-es2015": "^6.24.1",
     "babelify": "^8.0.0",
     "browser-sync": "^2.18.13",
@@ -44,7 +44,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/janczizikow/sleek.git"
+    "url": "https://github.com/weswu/jekyll-sleek.git"
   },
   "babel": {
     "presets": [
@@ -53,10 +53,9 @@
     ]
   },
   "keywords": [],
-  "author": "Jan Czizikow",
-  "license": "MIT",
+  "author": "Wes",
   "bugs": {
-    "url": "https://github.com/janczizikow/sleek/issues"
+    "url": "https://github.com/weswu/jekyll-sleek/issues"
   },
-  "homepage": "https://github.com/janczizikow/sleek#readme"
+  "homepage": "https://github.com/weswu/jekyll-sleek#readme"
 }
