@@ -3,7 +3,7 @@ title: '绍兴店口' # 主题
 author: wes # 作者信息
 description: > # Meta description of Homepage
   详细描述内容.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://baidu.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # SEO PLUGIN
@@ -35,7 +35,7 @@ github_username:  weswu # replace with your_github_username or comment to remove
 instagram_username: weswu # replace with your_instagram_username or comment to remove link from footer
 
 disqus:
-  shortname: wes # to enable comments replace with your_disqus_shortname
+  shortname: weswu # to enable comments replace with your_disqus_shortname
 
 # google_tag_manager: GTM-XXXXXXX # Uncomment to enable GTM. Replace GTM-XXXXXXX with your GTM container ID
 

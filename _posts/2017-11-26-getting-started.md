@@ -3,6 +3,7 @@ layout: post
 title: 高层次人才专家助力我市金属加工产业集群发展
 featured-img: sleek
 mathjax: true
+comments: true
 ---
 
 

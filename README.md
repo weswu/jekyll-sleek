@@ -17,22 +17,6 @@ A modern [Jekyll](https://jekyllrb.com/) theme focused on speed performance & SE
 
 [Preview Demo](https://janczizikow.github.io/sleek/)
 
-site
-
-chrome://serviceworker-internals/  删除 service worker
-
-
-
-0. 目录优化
-1. test数据完善页面（首页，新闻） 首页和新闻动态从一下接口 ，查询条件partyId，status=2
-
-
-https://apizza.net/
-
-2. 走进店口页面显示，电话地址，给个地图定位
-3. 互动交流，部署几个输入框，输入电话，访问时间，访问单位，提交。
-4. 学习语法（jeykll,gulp）
-
 
 ## Installation
 
@@ -41,7 +25,7 @@ https://apizza.net/
 ```shell
 [Ruby+Devkit 2.7.1-1](https://rubyinstaller.org/downloads/)
 gem source -r https://rubygems.org/
-gem source -a https://gems.ruby-china.com
+gem source -a https://gems.ruby-china.com  
 gem install bundler
 gem install jekyll
 cnpm install --global gulp-cli  安装gulp插件
@@ -83,6 +67,20 @@ And then execute:
 Or install it yourself as:
 
     $ gem install jekyll-sleek
+
+
+
+
+
+#### 站点数据缓存
+
+chrome://serviceworker-internals/  删除 service worker
+
+
+
+#### 评论
+
+
 
 ## File Structure Overview
 

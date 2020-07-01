@@ -2,3 +2,4 @@
 
 source "https://gems.ruby-china.com"
 gemspec
+gem "jekyll", "~> 4.0.0"

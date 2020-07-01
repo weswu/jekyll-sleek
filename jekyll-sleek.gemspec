@@ -3,7 +3,7 @@
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-wes"
   spec.version       = "0.1.9"
-  spec.authors       = ["Wes Wu"]
+  spec.authors       = ["Wes"]
   spec.email         = ["836790625@qq.com"]
 
   spec.summary       = %q{一个简单的jekyll页面.}
@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
   end
 
   spec.platform      = Gem::Platform::RUBY
-  spec.add_runtime_dependency "jekyll", "~> 3.6"
+  spec.add_runtime_dependency "jekyll", "~> 4.0"
   spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.3"
   spec.add_runtime_dependency "jekyll-sitemap", "~> 1.1"
 

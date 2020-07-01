@@ -1,0 +1,34 @@
+I"<div>
+
+  <div class="archive-group">
+    
+    <div id="#Sample"></div>
+    <p></p>
+    <h3 class="category-head">Sample</h3>
+    <a name="Sample"></a>
+    
+    <article class="archive-item">
+      <h4><a href="/super-long-article/">店口镇开展人大代表轮训工作</a></h4>
+    </article>
+    
+  </div>
+
+  <div class="archive-group">
+    
+    <div id="#Guides"></div>
+    <p></p>
+    <h3 class="category-head">Guides</h3>
+    <a name="Guides"></a>
+    
+    <article class="archive-item">
+      <h4><a href="/markdown-cheatsheet/">与杭同城·智汇暨阳”在杭大学生招聘会顺利举行</a></h4>
+    </article>
+    
+    <article class="archive-item">
+      <h4><a href="/super-long-article/">店口镇开展人大代表轮训工作</a></h4>
+    </article>
+    
+  </div>
+
+</div>
+:ET
