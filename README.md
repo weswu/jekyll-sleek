@@ -106,6 +106,7 @@ sleek
 #### 技术支持
 1. [Sleek](https://github.com/janczizikow/sleek)
 2. [人才网](https://www.zjrcfw.com/)
+2. [jekyll博客](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll)
 
 
 ### Posts
